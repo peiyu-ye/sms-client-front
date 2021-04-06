@@ -1,0 +1,65 @@
+/*
+* @style 定义页面样式
+*/
+.pageTop{
+  .topBottomSearch{
+    .searchHead{
+      padding-right: 16px;
+      display: inline-block;
+    }
+  }
+}
+// 状态字体颜色
+._doing{
+  color: #1890ff;
+  font-weight: 600;
+}
+._success{
+  color: rgb(68,185,11);
+  font-weight: 600;
+}
+._failed{
+  color: rgb(245,34,45);
+  font-weight: 600;
+}
+._warning{
+  color: rgba(251,150,0,1);
+  font-weight: 600;
+}
+// 提示字颜色
+.tipText_failed{
+    color: rgb(245 34 45);
+    font-size: 13px;
+}
+.tipText{
+    font-size: 13px;
+}
+.tipText_warning{
+  margin-left: 1rem;
+  color: #f00;
+  font-size: 16px;
+}
+.tipText_error{
+  color: rgba(255,0,0,0.87);
+}
+.tipText_error:hover{
+  color: #f00;
+}
+// 提示
+.alert-info{
+  margin-bottom: 10px;
+  // color: #31708f;
+  background-color: #e9f5fb;
+  border-color: #bce8f1;
+  padding: 10px;
+  border-radius: 4px;
+  &-title{
+    color: rgba(251,150,0,1);
+  }
+  &-sapn{
+    padding-left: 1.5rem;
+    span{
+      margin-right: 2rem;
+    }
+  }  
+}
